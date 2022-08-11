@@ -1,0 +1,665 @@
+2022-08-09 08:37:12,719 11072 INFO ? odoo: Odoo version 15.0-20220809 
+2022-08-09 08:37:12,719 11072 INFO ? odoo: Using configuration file at C:\Odoo15\server\odoo.conf 
+2022-08-09 08:37:12,719 11072 INFO ? odoo: addons paths: ['C:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\user\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-08-09 08:37:12,719 11072 INFO ? odoo: database: openpg@localhost:5432 
+2022-08-09 08:37:13,891 11072 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2022-08-09 08:37:15,234 11072 INFO ? odoo.service.server: Initiating shutdown 
+2022-08-09 08:37:15,234 11072 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-08-09 08:37:17,104 3112 INFO ? odoo: Odoo version 15.0-20220809 
+2022-08-09 08:37:17,104 3112 INFO ? odoo: Using configuration file at C:\Odoo15\server\odoo.conf 
+2022-08-09 08:37:17,104 3112 INFO ? odoo: addons paths: ['C:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\user\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-08-09 08:37:17,104 3112 INFO ? odoo: database: openpg@localhost:5432 
+2022-08-09 08:37:17,275 3112 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2022-08-09 08:37:18,306 3112 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-97VVJJ8:8069 
+2022-08-09 08:37:21,516 3112 INFO ? odoo.sql_db: Connection to the database failed 
+2022-08-09 08:37:25,656 3112 INFO ? odoo.sql_db: Connection to the database failed 
+2022-08-09 08:42:04,502 3112 INFO ? odoo.http: HTTP Configuring static files 
+2022-08-09 08:42:04,563 3112 INFO odoo_db odoo.sql_db: Connection to the database failed 
+2022-08-09 08:42:04,563 3112 INFO odoo_db odoo.http: Generating nondb routing 
+2022-08-09 08:42:04,585 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:04] "GET / HTTP/1.1" 303 - 0 0.000 0.073
+2022-08-09 08:42:04,675 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:04] "GET /web HTTP/1.1" 303 - 2 0.006 0.080
+2022-08-09 08:42:04,841 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:04] "GET /web/database/selector HTTP/1.1" 200 - 2 0.008 0.153
+2022-08-09 08:42:05,171 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/fontawesome/css/font-awesome.css HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,172 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/css/bootstrap.css HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,174 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/popper/popper.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,175 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/jquery/jquery.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,180 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/util.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,181 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/index.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,480 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/alert.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,493 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/button.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,494 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/carousel.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,497 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/dropdown.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,498 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/collapse.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,500 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/modal.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,783 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/tooltip.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,799 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/popover.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,802 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/scrollspy.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,807 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/lib/bootstrap/js/tab.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:05,808 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:05] "GET /web/static/src/public/database_manager.js HTTP/1.1" 200 - - - -
+2022-08-09 08:42:06,116 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 08:42:06] "GET /web/static/img/logo2.png HTTP/1.1" 200 - - - -
+2022-08-09 08:42:59,484 3112 INFO None odoo.service.db: Create database `odoo_db`. 
+2022-08-09 08:43:01,668 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 08:43:01,668 3112 INFO odoo_db odoo.modules.loading: Loading module base (1/1) 
+2022-08-09 08:43:01,695 3112 INFO odoo_db odoo.modules.registry: module base: creating or updating database tables 
+2022-08-09 08:43:03,326 3112 INFO odoo_db odoo.models: Storing computed values of ir.module.module.menus_by_module 
+2022-08-09 08:43:03,326 3112 INFO odoo_db odoo.models: Storing computed values of ir.module.module.reports_by_module 
+2022-08-09 08:43:03,326 3112 INFO odoo_db odoo.models: Storing computed values of ir.module.module.views_by_module 
+2022-08-09 08:43:03,329 3112 INFO odoo_db odoo.models: Storing computed values of res.partner.display_name 
+2022-08-09 08:43:03,329 3112 INFO odoo_db odoo.models: Storing computed values of res.partner.partner_share 
+2022-08-09 08:43:03,329 3112 INFO odoo_db odoo.models: Storing computed values of res.partner.commercial_partner_id 
+2022-08-09 08:43:03,329 3112 INFO odoo_db odoo.models: Storing computed values of res.partner.commercial_company_name 
+2022-08-09 08:43:03,330 3112 INFO odoo_db odoo.models: Storing computed values of res.currency.decimal_places 
+2022-08-09 08:43:03,336 3112 INFO odoo_db odoo.models: Storing computed values of res.company.logo_web 
+2022-08-09 08:43:03,336 3112 INFO odoo_db odoo.models: Storing computed values of res.company.company_registry 
+2022-08-09 08:43:03,343 3112 INFO odoo_db odoo.models: Storing computed values of res.users.share 
+2022-08-09 08:43:05,395 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_bank.xml 
+2022-08-09 08:43:05,416 3112 INFO odoo_db odoo.modules.loading: loading base/data/res.lang.csv 
+2022-08-09 08:43:05,502 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_lang_data.xml 
+2022-08-09 08:43:05,538 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_partner_data.xml 
+2022-08-09 08:43:05,622 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_company_data.xml 
+2022-08-09 08:43:05,645 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_users_data.xml 
+2022-08-09 08:43:05,740 3112 INFO odoo_db odoo.modules.loading: loading base/data/report_paperformat_data.xml 
+2022-08-09 08:43:05,754 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_currency_data.xml 
+2022-08-09 08:43:06,274 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_country_data.xml 
+2022-08-09 08:43:06,800 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_demo_data.xml 
+2022-08-09 08:43:06,816 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_config_parameter_data.xml 
+2022-08-09 08:43:06,829 3112 INFO odoo_db odoo.modules.loading: loading base/security/base_groups.xml 
+2022-08-09 08:43:06,979 3112 INFO odoo_db odoo.modules.loading: loading base/security/base_security.xml 
+2022-08-09 08:43:07,229 3112 INFO odoo_db odoo.modules.loading: loading base/views/base_menus.xml 
+2022-08-09 08:43:07,361 3112 INFO odoo_db odoo.modules.loading: loading base/views/decimal_precision_views.xml 
+2022-08-09 08:43:07,396 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_config_views.xml 
+2022-08-09 08:43:07,412 3112 INFO odoo_db odoo.modules.loading: loading base/data/res.country.state.csv 
+2022-08-09 08:43:08,470 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_actions_views.xml 
+2022-08-09 08:43:08,603 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_asset_views.xml 
+2022-08-09 08:43:08,629 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_config_parameter_views.xml 
+2022-08-09 08:43:08,656 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_cron_views.xml 
+2022-08-09 08:43:08,698 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_cron_trigger_views.xml 
+2022-08-09 08:43:08,723 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_filters_views.xml 
+2022-08-09 08:43:08,751 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_mail_server_views.xml 
+2022-08-09 08:43:08,780 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_model_views.xml 
+2022-08-09 08:43:08,953 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_attachment_views.xml 
+2022-08-09 08:43:08,983 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_rule_views.xml 
+2022-08-09 08:43:09,016 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_sequence_views.xml 
+2022-08-09 08:43:09,044 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_translation_views.xml 
+2022-08-09 08:43:09,084 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_ui_menu_views.xml 
+2022-08-09 08:43:09,113 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_ui_view_views.xml 
+2022-08-09 08:43:09,172 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_default_views.xml 
+2022-08-09 08:43:09,199 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_cron_data.xml 
+2022-08-09 08:43:09,211 3112 INFO odoo_db odoo.modules.loading: loading base/report/ir_model_report.xml 
+2022-08-09 08:43:09,222 3112 INFO odoo_db odoo.modules.loading: loading base/report/ir_model_templates.xml 
+2022-08-09 08:43:09,233 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_logging_views.xml 
+2022-08-09 08:43:09,259 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_qweb_widget_templates.xml 
+2022-08-09 08:43:09,274 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_module_views.xml 
+2022-08-09 08:43:09,358 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_module_category_data.xml 
+2022-08-09 08:43:09,459 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_module_module.xml 
+2022-08-09 08:43:09,542 3112 INFO odoo_db odoo.modules.loading: loading base/report/ir_module_reports.xml 
+2022-08-09 08:43:09,550 3112 INFO odoo_db odoo.modules.loading: loading base/report/ir_module_report_templates.xml 
+2022-08-09 08:43:09,562 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_module_update_views.xml 
+2022-08-09 08:43:09,580 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_language_install_views.xml 
+2022-08-09 08:43:09,594 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_import_language_views.xml 
+2022-08-09 08:43:09,613 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_module_upgrade_views.xml 
+2022-08-09 08:43:09,640 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_module_uninstall_views.xml 
+2022-08-09 08:43:09,652 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_export_language_views.xml 
+2022-08-09 08:43:09,671 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_update_translations_views.xml 
+2022-08-09 08:43:09,690 3112 INFO odoo_db odoo.modules.loading: loading base/wizard/base_partner_merge_views.xml 
+2022-08-09 08:43:09,709 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_actions_data.xml 
+2022-08-09 08:43:09,719 3112 INFO odoo_db odoo.modules.loading: loading base/data/ir_demo_failure_data.xml 
+2022-08-09 08:43:09,736 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_profile_views.xml 
+2022-08-09 08:43:09,767 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_company_views.xml 
+2022-08-09 08:43:09,796 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_lang_views.xml 
+2022-08-09 08:43:09,826 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_partner_views.xml 
+2022-08-09 08:43:09,952 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_bank_views.xml 
+2022-08-09 08:43:09,991 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_country_views.xml 
+2022-08-09 08:43:10,039 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_currency_views.xml 
+2022-08-09 08:43:10,084 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_users_views.xml 
+2022-08-09 08:43:10,208 3112 INFO odoo_db odoo.modules.loading: loading base/views/ir_property_views.xml 
+2022-08-09 08:43:10,238 3112 INFO odoo_db odoo.modules.loading: loading base/views/res_config_settings_views.xml 
+2022-08-09 08:43:10,252 3112 INFO odoo_db odoo.modules.loading: loading base/views/report_paperformat_views.xml 
+2022-08-09 08:43:10,290 3112 INFO odoo_db odoo.modules.loading: loading base/views/onboarding_views.xml 
+2022-08-09 08:43:10,322 3112 INFO odoo_db odoo.modules.loading: loading base/security/ir.model.access.csv 
+2022-08-09 08:43:10,535 3112 INFO odoo_db odoo.modules.loading: Module base: loading demo 
+2022-08-09 08:43:10,535 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_company_demo.xml 
+2022-08-09 08:43:10,553 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_users_demo.xml 
+2022-08-09 08:43:10,711 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_partner_bank_demo.xml 
+2022-08-09 08:43:10,723 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_currency_rate_demo.xml 
+2022-08-09 08:43:11,170 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_bank_demo.xml 
+2022-08-09 08:43:11,179 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_partner_demo.xml 
+2022-08-09 08:43:11,500 3112 INFO odoo_db odoo.modules.loading: loading base/data/res_partner_image_demo.xml 
+2022-08-09 08:43:11,766 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base: no translation for language en_IN 
+2022-08-09 08:43:12,348 3112 INFO odoo_db odoo.modules.loading: Module base loaded in 10.68s, 10866 queries 
+2022-08-09 08:43:12,348 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 10.68s, 10866 queries (+0 extra) 
+2022-08-09 08:43:12,403 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base: no translation for language en_IN 
+2022-08-09 08:43:12,415 3112 INFO odoo_db odoo.modules.loading: updating modules list 
+2022-08-09 08:43:12,415 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-08-09 08:43:13,337 3112 INFO odoo_db odoo.modules.loading: loading 7 modules... 
+2022-08-09 08:43:13,337 3112 INFO odoo_db odoo.modules.loading: Loading module web (2/7) 
+2022-08-09 08:43:13,383 3112 INFO odoo_db odoo.modules.registry: module web: creating or updating database tables 
+2022-08-09 08:43:13,977 3112 INFO odoo_db odoo.modules.loading: loading web/security/ir.model.access.csv 
+2022-08-09 08:43:13,989 3112 INFO odoo_db odoo.modules.loading: loading web/views/webclient_templates.xml 
+2022-08-09 08:43:14,048 3112 INFO odoo_db odoo.modules.loading: loading web/views/report_templates.xml 
+2022-08-09 08:43:14,132 3112 INFO odoo_db odoo.modules.loading: loading web/views/base_document_layout_views.xml 
+2022-08-09 08:43:14,148 3112 INFO odoo_db odoo.modules.loading: loading web/views/speedscope_template.xml 
+2022-08-09 08:43:14,154 3112 INFO odoo_db odoo.modules.loading: loading web/views/lazy_assets.xml 
+2022-08-09 08:43:14,161 3112 INFO odoo_db odoo.modules.loading: loading web/data/report_layout.xml 
+2022-08-09 08:43:14,199 3112 INFO odoo_db odoo.modules.loading: Module web: loading demo 
+2022-08-09 08:43:14,203 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web: no translation for language en_IN 
+2022-08-09 08:43:14,216 3112 INFO odoo_db odoo.modules.loading: Module web loaded in 0.88s, 888 queries 
+2022-08-09 08:43:14,216 3112 INFO odoo_db odoo.modules.loading: Loading module auth_totp (3/7) 
+2022-08-09 08:43:14,387 3112 INFO odoo_db odoo.modules.registry: module auth_totp: creating or updating database tables 
+2022-08-09 08:43:14,482 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/security/security.xml 
+2022-08-09 08:43:14,521 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/security/ir.model.access.csv 
+2022-08-09 08:43:14,538 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/data/ir_action_data.xml 
+2022-08-09 08:43:14,552 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/views/res_users_views.xml 
+2022-08-09 08:43:14,584 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/views/templates.xml 
+2022-08-09 08:43:14,595 3112 INFO odoo_db odoo.modules.loading: loading auth_totp/wizard/auth_totp_wizard_views.xml 
+2022-08-09 08:43:14,607 3112 INFO odoo_db odoo.modules.loading: Module auth_totp: loading demo 
+2022-08-09 08:43:14,613 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module auth_totp: no translation for language en_IN 
+2022-08-09 08:43:14,625 3112 INFO odoo_db odoo.modules.loading: Module auth_totp loaded in 0.41s, 194 queries 
+2022-08-09 08:43:14,625 3112 INFO odoo_db odoo.modules.loading: Loading module base_import (4/7) 
+2022-08-09 08:43:14,738 3112 INFO odoo_db odoo.modules.registry: module base_import: creating or updating database tables 
+2022-08-09 08:43:15,712 3112 INFO odoo_db odoo.modules.loading: loading base_import/security/ir.model.access.csv 
+2022-08-09 08:43:15,754 3112 INFO odoo_db odoo.modules.loading: Module base_import: loading demo 
+2022-08-09 08:43:15,759 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base_import: no translation for language en_IN 
+2022-08-09 08:43:15,773 3112 INFO odoo_db odoo.modules.loading: Module base_import loaded in 1.15s, 921 queries 
+2022-08-09 08:43:15,773 3112 INFO odoo_db odoo.modules.loading: Loading module web_editor (5/7) 
+2022-08-09 08:43:15,996 3112 INFO odoo_db odoo.modules.registry: module web_editor: creating or updating database tables 
+2022-08-09 08:43:16,176 3112 INFO odoo_db odoo.modules.loading: loading web_editor/security/ir.model.access.csv 
+2022-08-09 08:43:16,188 3112 INFO odoo_db odoo.modules.loading: loading web_editor/data/editor_assets.xml 
+2022-08-09 08:43:16,195 3112 INFO odoo_db odoo.modules.loading: loading web_editor/views/editor.xml 
+2022-08-09 08:43:16,220 3112 INFO odoo_db odoo.modules.loading: loading web_editor/views/snippets.xml 
+2022-08-09 08:43:16,255 3112 INFO odoo_db odoo.modules.loading: Module web_editor: loading demo 
+2022-08-09 08:43:16,260 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_editor: no translation for language en_IN 
+2022-08-09 08:43:16,272 3112 INFO odoo_db odoo.modules.loading: Module web_editor loaded in 0.50s, 247 queries 
+2022-08-09 08:43:16,273 3112 INFO odoo_db odoo.modules.loading: Loading module web_kanban_gauge (6/7) 
+2022-08-09 08:43:16,327 3112 INFO odoo_db odoo.modules.loading: Module web_kanban_gauge: loading demo 
+2022-08-09 08:43:16,331 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language en_IN 
+2022-08-09 08:43:16,350 3112 INFO odoo_db odoo.modules.loading: Module web_kanban_gauge loaded in 0.08s, 20 queries 
+2022-08-09 08:43:16,350 3112 INFO odoo_db odoo.modules.loading: Loading module web_tour (7/7) 
+2022-08-09 08:43:16,403 3112 INFO odoo_db odoo.modules.registry: module web_tour: creating or updating database tables 
+2022-08-09 08:43:16,455 3112 INFO odoo_db odoo.modules.loading: loading web_tour/security/ir.model.access.csv 
+2022-08-09 08:43:16,468 3112 INFO odoo_db odoo.modules.loading: loading web_tour/security/ir.rule.csv 
+2022-08-09 08:43:16,480 3112 INFO odoo_db odoo.modules.loading: loading web_tour/views/tour_views.xml 
+2022-08-09 08:43:16,501 3112 INFO odoo_db odoo.modules.loading: Module web_tour: loading demo 
+2022-08-09 08:43:16,505 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_tour: no translation for language en_IN 
+2022-08-09 08:43:16,519 3112 INFO odoo_db odoo.modules.loading: Module web_tour loaded in 0.17s, 118 queries 
+2022-08-09 08:43:16,519 3112 INFO odoo_db odoo.modules.loading: 7 modules loaded in 3.18s, 2388 queries (+0 extra) 
+2022-08-09 08:43:16,751 3112 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2022-08-09 08:43:16,753 3112 INFO odoo_db odoo.modules.registry: Registry loaded in 15.102s 
+2022-08-09 08:43:16,758 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base: no translation for language en_IN 
+2022-08-09 08:43:16,759 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web: no translation for language en_IN 
+2022-08-09 08:43:16,759 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module auth_totp: no translation for language en_IN 
+2022-08-09 08:43:16,759 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base_import: no translation for language en_IN 
+2022-08-09 08:43:16,760 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_editor: no translation for language en_IN 
+2022-08-09 08:43:16,760 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_kanban_gauge: no translation for language en_IN 
+2022-08-09 08:43:16,761 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_tour: no translation for language en_IN 
+2022-08-09 08:43:16,867 3112 INFO odoo_db odoo.addons.base.models.res_users: Login successful for db:odoo_db login:harshitha@sanaditechnologies.com from 127.0.0.1 
+2022-08-09 08:43:16,881 3112 INFO odoo_db odoo.modules.registry: Registry changed, signaling through the database 
+2022-08-09 08:43:16,911 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:16] "POST /web/database/create HTTP/1.1" 303 - 17743 10.560 7.003
+2022-08-09 08:43:16,922 3112 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-08-09 08:43:23,994 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:23] "GET /web HTTP/1.1" 200 - 193 0.112 6.968
+2022-08-09 08:43:24,438 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/assets/188-1f98cd2/web.assets_common.min.css HTTP/1.1" 200 - 2 0.012 0.110
+2022-08-09 08:43:24,453 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/webclient/load_menus/783977f7e9348da888ef2bb0dfa8b786cf48d95cd15f50e48455e1eab0c4dbf1 HTTP/1.1" 200 - 1 0.004 0.105
+2022-08-09 08:43:24,477 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/assets/189-655868d/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.006 0.146
+2022-08-09 08:43:24,477 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/assets/192-f555538/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.009 0.130
+2022-08-09 08:43:24,760 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/assets/190-1f98cd2/web.assets_common.min.js HTTP/1.1" 200 - 2 0.007 0.425
+2022-08-09 08:43:24,806 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/assets/191-655868d/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.001 0.472
+2022-08-09 08:43:24,877 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:24] "GET /web/webclient/qweb/b979276ee413286e6a0837a33152dc53ae1d5d11c265a5c011e56cc25ee41b7c?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.004 0.114
+2022-08-09 08:43:25,552 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.016 0.031
+2022-08-09 08:43:25,583 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 200 - 18 0.047 0.016
+2022-08-09 08:43:25,615 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:25] "POST /web/action/load HTTP/1.1" 200 - 28 0.054 0.056
+2022-08-09 08:43:25,889 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:25] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.096 0.037
+2022-08-09 08:43:25,963 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:25] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.027 0.013
+2022-08-09 08:43:26,254 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 08:43:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.028 0.014
+2022-08-09 09:08:13,716 240 INFO ? odoo: Odoo version 15.0-20220809 
+2022-08-09 09:08:13,716 240 INFO ? odoo: Using configuration file at C:\Odoo15\server\odoo.conf 
+2022-08-09 09:08:13,716 240 INFO ? odoo: addons paths: ['C:\\Odoo15\\server\\odoo\\addons', 'c:\\users\\user\\appdata\\local\\openerp s.a\\odoo\\addons\\15.0', 'c:\\odoo15\\server\\odoo\\addons'] 
+2022-08-09 09:08:13,716 240 INFO ? odoo: database: openpg@localhost:5432 
+2022-08-09 09:08:13,966 240 INFO ? odoo.addons.base.models.ir_actions_report: Will use the Wkhtmltopdf binary at C:\Odoo15\thirdparty\wkhtmltopdf.exe 
+2022-08-09 09:08:15,341 240 INFO ? odoo.service.server: HTTP service (werkzeug) running on DESKTOP-97VVJJ8:8069 
+2022-08-09 09:09:02,081 240 INFO ? odoo.service.server: Initiating shutdown 
+2022-08-09 09:09:02,081 240 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-08-09 09:09:02,488 240 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 2 connections  
+2022-08-09 09:09:21,345 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:09:21] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.005 0.024
+2022-08-09 09:09:21,369 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:09:21] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.023 0.035
+2022-08-09 09:09:21,565 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 09:09:21] "GET /base/static/description/icon.png HTTP/1.1" 200 - - - -
+2022-08-09 09:10:09,510 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:09] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.037 0.032
+2022-08-09 09:10:09,827 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:09] "POST /web/dataset/search_read HTTP/1.1" 200 - 2 0.000 0.000
+2022-08-09 09:10:10,090 3112 INFO ? werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:10] "GET /web/static/img/empty_folder.svg HTTP/1.1" 200 - - - -
+2022-08-09 09:10:11,611 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:11] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.022 0.015
+2022-08-09 09:10:11,909 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:11] "POST /web/dataset/search_read HTTP/1.1" 200 - 4 0.010 0.017
+2022-08-09 09:10:13,901 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:13] "POST /web/action/load HTTP/1.1" 200 - 16 0.031 0.000
+2022-08-09 09:10:14,172 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:14] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.021 0.020
+2022-08-09 09:10:14,223 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:14] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.003 0.004
+2022-08-09 09:10:15,431 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:15] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.018 0.006
+2022-08-09 09:10:15,752 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:15] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.007 0.005
+2022-08-09 09:10:15,995 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:10:16,409 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:10:16,928 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:16] "POST /web/dataset/call_button HTTP/1.1" 200 - 1054 0.346 0.592
+2022-08-09 09:10:24,552 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web HTTP/1.1" 200 - 12 0.012 0.050
+2022-08-09 09:10:24,813 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/assets/188-1f98cd2/web.assets_common.min.css HTTP/1.1" 200 - 2 0.005 0.014
+2022-08-09 09:10:24,911 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/assets/190-1f98cd2/web.assets_common.min.js HTTP/1.1" 304 - 2 0.004 0.029
+2022-08-09 09:10:24,923 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/assets/189-655868d/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.003 0.043
+2022-08-09 09:10:24,924 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/webclient/load_menus/783977f7e9348da888ef2bb0dfa8b786cf48d95cd15f50e48455e1eab0c4dbf1 HTTP/1.1" 200 - 1 0.001 0.033
+2022-08-09 09:10:24,924 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/assets/191-655868d/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.012 0.032
+2022-08-09 09:10:24,925 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:24] "GET /web/assets/192-f555538/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.009 0.030
+2022-08-09 09:10:25,186 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:25] "GET /web/webclient/qweb/b979276ee413286e6a0837a33152dc53ae1d5d11c265a5c011e56cc25ee41b7c?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.001 0.065
+2022-08-09 09:10:25,616 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:25] "POST /web/action/load HTTP/1.1" 200 - 14 0.030 0.043
+2022-08-09 09:10:25,731 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 4 0.011 0.030
+2022-08-09 09:10:25,786 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:25] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 23 0.033 0.043
+2022-08-09 09:10:25,809 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:25] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 6 0.005 0.011
+2022-08-09 09:10:26,001 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 39 0.038 0.032
+2022-08-09 09:10:26,148 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.015 0.020
+2022-08-09 09:10:29,655 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:10:29,656 3112 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-08-09 09:10:29,658 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:10:29,682 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:10:29,791 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:10:29,799 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-08-09 09:10:29,823 3112 INFO odoo_db odoo.modules.loading: updating modules list 
+2022-08-09 09:10:29,824 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-08-09 09:10:30,211 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:10:30,689 3112 INFO odoo_db odoo.modules.loading: loading 7 modules... 
+2022-08-09 09:10:30,689 3112 INFO odoo_db odoo.modules.loading: 7 modules loaded in 0.00s, 0 queries (+0 extra) 
+2022-08-09 09:10:30,689 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:10:30,705 3112 INFO odoo_db odoo.modules.loading: loading 22 modules... 
+2022-08-09 09:10:30,705 3112 INFO odoo_db odoo.modules.loading: Loading module base_setup (5/22) 
+2022-08-09 09:10:30,799 3112 INFO odoo_db odoo.modules.registry: module base_setup: creating or updating database tables 
+2022-08-09 09:10:30,877 3112 INFO odoo_db odoo.modules.loading: loading base_setup/data/base_setup_data.xml 
+2022-08-09 09:10:30,877 3112 INFO odoo_db odoo.modules.loading: loading base_setup/views/res_config_settings_views.xml 
+2022-08-09 09:10:30,924 3112 INFO odoo_db odoo.modules.loading: loading base_setup/views/res_partner_views.xml 
+2022-08-09 09:10:30,939 3112 INFO odoo_db odoo.modules.loading: Module base_setup: loading demo 
+2022-08-09 09:10:30,939 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module base_setup: no translation for language en_IN 
+2022-08-09 09:10:30,955 3112 INFO odoo_db odoo.modules.loading: Module base_setup loaded in 0.25s, 168 queries 
+2022-08-09 09:10:30,955 3112 INFO odoo_db odoo.modules.loading: Loading module bus (6/22) 
+2022-08-09 09:10:31,002 3112 INFO odoo_db odoo.modules.registry: module bus: creating or updating database tables 
+2022-08-09 09:10:31,096 3112 INFO odoo_db odoo.modules.loading: loading bus/security/ir.model.access.csv 
+2022-08-09 09:10:31,111 3112 INFO odoo_db odoo.modules.loading: Module bus: loading demo 
+2022-08-09 09:10:31,127 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module bus: no translation for language en_IN 
+2022-08-09 09:10:31,127 3112 INFO odoo_db odoo.modules.loading: Module bus loaded in 0.17s, 108 queries 
+2022-08-09 09:10:31,127 3112 INFO odoo_db odoo.modules.loading: Loading module iap (10/22) 
+2022-08-09 09:10:31,252 3112 INFO odoo_db odoo.modules.registry: module iap: creating or updating database tables 
+2022-08-09 09:10:31,330 3112 INFO odoo_db odoo.modules.loading: loading iap/security/ir.model.access.csv 
+2022-08-09 09:10:31,346 3112 INFO odoo_db odoo.modules.loading: loading iap/security/ir_rule.xml 
+2022-08-09 09:10:31,361 3112 INFO odoo_db odoo.modules.loading: loading iap/views/iap_views.xml 
+2022-08-09 09:10:31,392 3112 INFO odoo_db odoo.modules.loading: loading iap/views/res_config_settings.xml 
+2022-08-09 09:10:31,408 3112 INFO odoo_db odoo.modules.loading: Module iap: loading demo 
+2022-08-09 09:10:31,424 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module iap: no translation for language en_IN 
+2022-08-09 09:10:31,439 3112 INFO odoo_db odoo.modules.loading: Module iap loaded in 0.31s, 158 queries 
+2022-08-09 09:10:31,439 3112 INFO odoo_db odoo.modules.loading: Loading module mail (11/22) 
+2022-08-09 09:10:32,048 3112 INFO odoo_db odoo.modules.registry: module mail: creating or updating database tables 
+2022-08-09 09:10:33,381 3112 INFO odoo_db odoo.models: Storing computed values of res.partner.email_normalized 
+2022-08-09 09:10:34,369 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_groups.xml 
+2022-08-09 09:10:34,429 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_blacklist_remove_views.xml 
+2022-08-09 09:10:34,440 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_compose_message_views.xml 
+2022-08-09 09:10:34,461 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_resend_cancel_views.xml 
+2022-08-09 09:10:34,462 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_resend_message_views.xml 
+2022-08-09 09:10:34,478 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_template_preview_views.xml 
+2022-08-09 09:10:34,494 3112 INFO odoo_db odoo.modules.loading: loading mail/wizard/mail_wizard_invite_views.xml 
+2022-08-09 09:10:34,518 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_message_subtype_views.xml 
+2022-08-09 09:10:34,537 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_tracking_views.xml 
+2022-08-09 09:10:34,546 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_notification_views.xml 
+2022-08-09 09:10:34,561 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_message_views.xml 
+2022-08-09 09:10:34,610 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_mail_views.xml 
+2022-08-09 09:10:34,629 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_followers_views.xml 
+2022-08-09 09:10:34,644 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_ice_server_views.xml 
+2022-08-09 09:10:34,660 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_channel_partner_views.xml 
+2022-08-09 09:10:34,690 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_channel_rtc_session_views.xml 
+2022-08-09 09:10:34,712 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_channel_views.xml 
+2022-08-09 09:10:34,743 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_shortcode_views.xml 
+2022-08-09 09:10:34,764 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_activity_views.xml 
+2022-08-09 09:10:34,811 3112 INFO odoo_db odoo.modules.loading: loading mail/views/res_config_settings_views.xml 
+2022-08-09 09:10:34,853 3112 INFO odoo_db odoo.modules.loading: loading mail/data/res_partner_data.xml 
+2022-08-09 09:10:34,878 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_message_subtype_data.xml 
+2022-08-09 09:10:34,894 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_templates.xml 
+2022-08-09 09:10:34,951 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_channel_data.xml 
+2022-08-09 09:10:34,977 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_activity_data.xml 
+2022-08-09 09:10:35,015 3112 INFO odoo_db odoo.modules.loading: loading mail/data/ir_cron_data.xml 
+2022-08-09 09:10:35,045 3112 INFO odoo_db odoo.modules.loading: loading mail/security/mail_security.xml 
+2022-08-09 09:10:35,159 3112 INFO odoo_db odoo.modules.loading: loading mail/security/ir.model.access.csv 
+2022-08-09 09:10:35,262 3112 INFO odoo_db odoo.modules.loading: loading mail/views/discuss_public_templates.xml 
+2022-08-09 09:10:35,286 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_alias_views.xml 
+2022-08-09 09:10:35,294 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_guest_views.xml 
+2022-08-09 09:10:35,310 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_message_reaction_views.xml 
+2022-08-09 09:10:35,326 3112 INFO odoo_db odoo.modules.loading: loading mail/views/res_users_views.xml 
+2022-08-09 09:10:35,358 3112 INFO odoo_db odoo.modules.loading: loading mail/views/res_users_settings_views.xml 
+2022-08-09 09:10:35,376 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_template_views.xml 
+2022-08-09 09:10:35,393 3112 INFO odoo_db odoo.modules.loading: loading mail/views/ir_actions_server_views.xml 
+2022-08-09 09:10:35,409 3112 INFO odoo_db odoo.modules.loading: loading mail/views/ir_model_views.xml 
+2022-08-09 09:10:35,448 3112 INFO odoo_db odoo.modules.loading: loading mail/views/res_partner_views.xml 
+2022-08-09 09:10:35,515 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_blacklist_views.xml 
+2022-08-09 09:10:35,540 3112 INFO odoo_db odoo.modules.loading: loading mail/views/mail_menus.xml 
+2022-08-09 09:10:35,680 3112 INFO odoo_db odoo.modules.loading: Module mail: loading demo 
+2022-08-09 09:10:35,680 3112 INFO odoo_db odoo.modules.loading: loading mail/data/mail_channel_demo.xml 
+2022-08-09 09:10:35,760 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module mail: no translation for language en_IN 
+2022-08-09 09:10:35,809 3112 INFO odoo_db odoo.modules.loading: Module mail loaded in 4.37s, 3363 queries 
+2022-08-09 09:10:35,809 3112 INFO odoo_db odoo.modules.loading: Loading module web_unsplash (12/22) 
+2022-08-09 09:10:35,928 3112 INFO odoo_db odoo.modules.registry: module web_unsplash: creating or updating database tables 
+2022-08-09 09:10:35,991 3112 INFO odoo_db odoo.modules.loading: loading web_unsplash/views/res_config_settings_view.xml 
+2022-08-09 09:10:36,038 3112 INFO odoo_db odoo.modules.loading: Module web_unsplash: loading demo 
+2022-08-09 09:10:36,043 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module web_unsplash: no translation for language en_IN 
+2022-08-09 09:10:36,043 3112 INFO odoo_db odoo.modules.loading: Module web_unsplash loaded in 0.23s, 90 queries 
+2022-08-09 09:10:36,043 3112 INFO odoo_db odoo.modules.loading: Loading module auth_signup (13/22) 
+2022-08-09 09:10:36,183 3112 INFO odoo_db odoo.modules.registry: module auth_signup: creating or updating database tables 
+2022-08-09 09:10:36,269 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/data/ir_config_parameter_data.xml 
+2022-08-09 09:10:36,282 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/data/ir_cron_data.xml 
+2022-08-09 09:10:36,292 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/data/mail_template_data.xml 
+2022-08-09 09:10:36,308 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/views/res_config_settings_views.xml 
+2022-08-09 09:10:36,324 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/views/res_users_views.xml 
+2022-08-09 09:10:36,371 3112 INFO odoo_db odoo.modules.loading: loading auth_signup/views/auth_signup_login_templates.xml 
+2022-08-09 09:10:36,391 3112 INFO odoo_db odoo.modules.loading: Module auth_signup: loading demo 
+2022-08-09 09:10:36,391 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module auth_signup: no translation for language en_IN 
+2022-08-09 09:10:36,407 3112 INFO odoo_db odoo.modules.loading: Module auth_signup loaded in 0.36s, 193 queries 
+2022-08-09 09:10:36,407 3112 INFO odoo_db odoo.modules.loading: Loading module auth_totp_mail (14/22) 
+2022-08-09 09:10:36,518 3112 INFO odoo_db odoo.modules.registry: module auth_totp_mail: creating or updating database tables 
+2022-08-09 09:10:36,542 3112 INFO odoo_db odoo.modules.loading: loading auth_totp_mail/data/ir_action_data.xml 
+2022-08-09 09:10:36,615 3112 INFO odoo_db odoo.modules.loading: loading auth_totp_mail/data/mail_template_data.xml 
+2022-08-09 09:10:36,625 3112 INFO odoo_db odoo.modules.loading: loading auth_totp_mail/views/res_users_views.xml 
+2022-08-09 09:10:36,640 3112 INFO odoo_db odoo.modules.loading: Module auth_totp_mail: loading demo 
+2022-08-09 09:10:36,656 3112 INFO odoo_db odoo.addons.base.models.ir_translation: module auth_totp_mail: no translation for language en_IN 
+2022-08-09 09:10:36,656 3112 INFO odoo_db odoo.modules.loading: Module auth_totp_mail loaded in 0.25s, 96 queries 
+2022-08-09 09:10:36,656 3112 INFO odoo_db odoo.modules.loading: Loading module eureka5 (15/22) 
+2022-08-09 09:10:36,708 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:10:36,708 3112 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2022-08-09 09:10:36,708 3112 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+2022-08-09 09:10:36,708 3112 ERROR odoo_db odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Odoo15\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Odoo15\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1351, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1339, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 483, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 600, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 476, in load_modules
+    loaded_modules, update_module, models_to_check)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 188, in load_module_graph
+    model_names = registry.load(cr, package)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 237, in load
+    model = cls._build_model(self, cr)
+  File "C:\Odoo15\server\odoo\models.py", line 636, in _build_model
+    raise TypeError("Model %r inherits from non-existing model %r." % (name, parent))
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Odoo15\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+TypeError: Model 'die.history' inherits from non-existing model 'die.master '.
+2022-08-09 09:10:36,724 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:10:36,724 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.00s, 0 queries (+0 extra) 
+2022-08-09 09:10:36,739 3112 INFO odoo_db odoo.modules.loading: loading 13 modules... 
+2022-08-09 09:10:36,759 3112 INFO odoo_db odoo.modules.loading: 13 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:10:36,791 3112 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2022-08-09 09:10:36,807 3112 INFO odoo_db odoo.modules.registry: Registry loaded in 0.083s 
+2022-08-09 09:10:36,807 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:10:36] "POST /web/dataset/call_button HTTP/1.1" 200 - 5303 3.803 3.356
+2022-08-09 09:11:18,338 3112 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-08-09 09:11:18,492 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:18] "POST /web/action/load HTTP/1.1" 200 - 19 0.028 0.133
+2022-08-09 09:11:18,621 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:18] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.016 0.024
+2022-08-09 09:11:18,829 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:18] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.006 0.015
+2022-08-09 09:11:20,166 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:20] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.009 0.008
+2022-08-09 09:11:20,496 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:20] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.007 0.011
+2022-08-09 09:11:20,729 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:11:21,218 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:11:21,701 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:21] "POST /web/dataset/call_button HTTP/1.1" 200 - 1033 0.386 0.591
+2022-08-09 09:11:34,281 3112 INFO odoo_db odoo.modules.registry: At least one model cache has been invalidated, signaling through the database. 
+2022-08-09 09:11:34,283 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web HTTP/1.1" 200 - 313 0.187 11.140
+2022-08-09 09:11:34,322 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/assets/199-08d43f3/web.assets_common.min.css HTTP/1.1" 200 - 4 0.006 0.015
+2022-08-09 09:11:34,671 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/assets/201-08d43f3/web.assets_common.min.js HTTP/1.1" 200 - 2 0.002 0.051
+2022-08-09 09:11:34,672 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/assets/200-cfeeaeb/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.015 0.046
+2022-08-09 09:11:34,687 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/assets/203-32b8a26/web.assets_backend_prod_only.min.js HTTP/1.1" 200 - 2 0.005 0.053
+2022-08-09 09:11:34,916 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/webclient/load_menus/44c58cc2a7c27e394b7e2cbabbf7ca42ef442440b3611b6bbc67463d762abfc7 HTTP/1.1" 200 - 149 0.135 0.150
+2022-08-09 09:11:34,984 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:34] "GET /web/webclient/qweb/fde0cc885d89548ed5fb668735a0652da4cb5eff48eb0f88ee9c0d9bb8a24fbf?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.006 0.324
+2022-08-09 09:11:35,121 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:35] "GET /web/assets/202-cfeeaeb/web.assets_backend.min.js HTTP/1.1" 200 - 2 0.007 0.492
+2022-08-09 09:11:35,829 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:35] "POST /web/action/load HTTP/1.1" 200 - 30 0.030 0.033
+2022-08-09 09:11:35,843 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:35] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.004 0.008
+2022-08-09 09:11:35,885 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:35] "POST /longpolling/poll HTTP/1.1" 200 - 17 0.022 0.029
+2022-08-09 09:11:35,889 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:35] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 22 0.024 0.027
+2022-08-09 09:11:36,107 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 59 0.040 0.049
+2022-08-09 09:11:36,155 3112 INFO ? odoo.addons.bus.models.bus: Bus.loop listen imbus on db postgres 
+2022-08-09 09:11:36,254 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 11 0.010 0.013
+2022-08-09 09:11:36,276 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /mail/init_messaging HTTP/1.1" 200 - 57 0.050 0.037
+2022-08-09 09:11:36,301 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 43 0.031 0.026
+2022-08-09 09:11:36,466 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.009 0.025
+2022-08-09 09:11:36,634 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.009 0.024
+2022-08-09 09:11:36,635 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:36] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.009 0.018
+2022-08-09 09:11:38,134 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:11:38,134 3112 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-08-09 09:11:38,135 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:11:38,146 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:11:38,213 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:11:38,220 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-08-09 09:11:38,246 3112 INFO odoo_db odoo.modules.loading: updating modules list 
+2022-08-09 09:11:38,247 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-08-09 09:11:38,636 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:11:39,105 3112 INFO odoo_db odoo.modules.loading: loading 13 modules... 
+2022-08-09 09:11:39,121 3112 INFO odoo_db odoo.modules.loading: 13 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:11:39,121 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:11:39,121 3112 INFO odoo_db odoo.modules.loading: loading 14 modules... 
+2022-08-09 09:11:39,121 3112 INFO odoo_db odoo.modules.loading: Loading module eureka5 (14/14) 
+2022-08-09 09:11:39,168 3112 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2022-08-09 09:11:39,168 3112 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+2022-08-09 09:11:39,168 3112 ERROR odoo_db odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Odoo15\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Odoo15\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1351, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1339, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 483, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 600, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 476, in load_modules
+    loaded_modules, update_module, models_to_check)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 188, in load_module_graph
+    model_names = registry.load(cr, package)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 237, in load
+    model = cls._build_model(self, cr)
+  File "C:\Odoo15\server\odoo\models.py", line 636, in _build_model
+    raise TypeError("Model %r inherits from non-existing model %r." % (name, parent))
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Odoo15\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+TypeError: Model 'die.history' inherits from non-existing model 'die.master '.
+2022-08-09 09:11:39,168 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:11:39,183 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:11:39,183 3112 INFO odoo_db odoo.modules.loading: loading 13 modules... 
+2022-08-09 09:11:39,199 3112 INFO odoo_db odoo.modules.loading: 13 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:11:39,246 3112 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2022-08-09 09:11:39,246 3112 INFO odoo_db odoo.modules.registry: Registry loaded in 0.078s 
+2022-08-09 09:11:39,246 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:11:39] "POST /web/dataset/call_button HTTP/1.1" 200 - 1082 0.438 0.681
+2022-08-09 09:12:18,624 3112 INFO odoo_db odoo.addons.base.models.ir_http: Generating routing map for key None 
+2022-08-09 09:12:18,805 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:18] "POST /web/action/load HTTP/1.1" 200 - 19 0.012 0.169
+2022-08-09 09:12:19,132 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:19] "POST /web/dataset/call_kw/base.module.update/load_views HTTP/1.1" 200 - 11 0.007 0.011
+2022-08-09 09:12:19,455 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:19] "POST /web/dataset/call_kw/base.module.update/onchange HTTP/1.1" 200 - 3 0.003 0.009
+2022-08-09 09:12:20,607 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:20] "POST /web/dataset/call_kw/base.module.update/create HTTP/1.1" 200 - 6 0.011 0.018
+2022-08-09 09:12:20,936 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:20] "POST /web/dataset/call_kw/base.module.update/read HTTP/1.1" 200 - 3 0.000 0.015
+2022-08-09 09:12:21,279 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:12:21,691 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:12:22,198 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:22] "POST /web/dataset/call_button HTTP/1.1" 200 - 1033 0.338 0.586
+2022-08-09 09:12:24,556 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web HTTP/1.1" 200 - 223 0.115 0.559
+2022-08-09 09:12:24,909 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/assets/199-08d43f3/web.assets_common.min.css HTTP/1.1" 200 - 2 0.006 0.023
+2022-08-09 09:12:24,949 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/assets/200-cfeeaeb/web.assets_backend.min.css HTTP/1.1" 200 - 2 0.004 0.050
+2022-08-09 09:12:24,954 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/webclient/load_menus/44c58cc2a7c27e394b7e2cbabbf7ca42ef442440b3611b6bbc67463d762abfc7 HTTP/1.1" 200 - 1 0.001 0.046
+2022-08-09 09:12:24,954 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/assets/201-08d43f3/web.assets_common.min.js HTTP/1.1" 304 - 2 0.002 0.055
+2022-08-09 09:12:24,955 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/assets/203-32b8a26/web.assets_backend_prod_only.min.js HTTP/1.1" 304 - 2 0.002 0.048
+2022-08-09 09:12:24,956 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:24] "GET /web/assets/202-cfeeaeb/web.assets_backend.min.js HTTP/1.1" 304 - 2 0.010 0.046
+2022-08-09 09:12:25,337 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "GET /web/webclient/qweb/fde0cc885d89548ed5fb668735a0652da4cb5eff48eb0f88ee9c0d9bb8a24fbf?bundle=web.assets_qweb HTTP/1.1" 200 - 2 0.000 0.121
+2022-08-09 09:12:25,721 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "POST /web/action/load HTTP/1.1" 200 - 28 0.034 0.033
+2022-08-09 09:12:25,848 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "POST /web/dataset/call_kw/res.users/systray_get_activities HTTP/1.1" 200 - 2 0.002 0.009
+2022-08-09 09:12:25,871 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "GET /web/image/res.company/1/favicon HTTP/1.1" 200 - 4 0.006 0.018
+2022-08-09 09:12:25,886 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "POST /mail/init_messaging HTTP/1.1" 200 - 71 0.064 0.051
+2022-08-09 09:12:25,950 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:25] "POST /web/dataset/call_kw/ir.module.module/load_views HTTP/1.1" 200 - 57 0.047 0.044
+2022-08-09 09:12:26,054 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "POST /longpolling/im_status HTTP/1.1" 200 - 4 0.005 0.015
+2022-08-09 09:12:26,166 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "POST /longpolling/poll HTTP/1.1" 200 - 11 0.009 50.017
+2022-08-09 09:12:26,235 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "POST /mail/load_message_failures HTTP/1.1" 200 - 3 0.008 0.013
+2022-08-09 09:12:26,263 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "POST /web/dataset/call_kw/ir.module.module/search_panel_select_range HTTP/1.1" 200 - 41 0.019 0.026
+2022-08-09 09:12:26,280 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "POST /web/dataset/search_read HTTP/1.1" 200 - 3 0.004 0.006
+2022-08-09 09:12:26,424 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:26] "GET /web/image?model=res.users&field=avatar_128&id=2 HTTP/1.1" 304 - 6 0.006 0.014
+2022-08-09 09:12:28,276 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_immediate_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:12:28,276 3112 INFO odoo_db odoo.addons.base.models.ir_module: User #2 triggered module installation 
+2022-08-09 09:12:28,278 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.button_install on ['Eureka Extrusions Die Management5'] to user harshitha@sanaditechnologies.com #2 via 127.0.0.1 
+2022-08-09 09:12:28,287 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:12:28,352 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:12:28,360 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.01s, 0 queries (+0 extra) 
+2022-08-09 09:12:28,385 3112 INFO odoo_db odoo.modules.loading: updating modules list 
+2022-08-09 09:12:28,386 3112 INFO odoo_db odoo.addons.base.models.ir_module: ALLOW access to module.update_list on [] to user __system__ #1 via 127.0.0.1 
+2022-08-09 09:12:28,779 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:12:29,264 3112 INFO odoo_db odoo.modules.loading: loading 13 modules... 
+2022-08-09 09:12:29,279 3112 INFO odoo_db odoo.modules.loading: 13 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:12:29,279 3112 WARNING odoo_db odoo.modules.module: Missing `license` key in manifest for 'eureka5', defaulting to LGPL-3 
+2022-08-09 09:12:29,279 3112 INFO odoo_db odoo.modules.loading: loading 14 modules... 
+2022-08-09 09:12:29,279 3112 INFO odoo_db odoo.modules.loading: Loading module eureka5 (14/14) 
+2022-08-09 09:12:29,326 3112 WARNING odoo_db odoo.modules.loading: Transient module states were reset 
+2022-08-09 09:12:29,326 3112 ERROR odoo_db odoo.modules.registry: Failed to load registry 
+2022-08-09 09:12:29,326 3112 ERROR odoo_db odoo.http: Exception during JSON request handling. 
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_http.py", line 237, in _dispatch
+    result = request.dispatch()
+  File "C:\Odoo15\server\odoo\http.py", line 687, in dispatch
+    result = self._call_function(**self.params)
+  File "C:\Odoo15\server\odoo\http.py", line 359, in _call_function
+    return checked_call(self.db, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\service\model.py", line 94, in wrapper
+    return f(dbname, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\http.py", line 348, in checked_call
+    result = self.endpoint(*a, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 916, in __call__
+    return self.method(*args, **kw)
+  File "C:\Odoo15\server\odoo\http.py", line 535, in response_wrap
+    response = f(*args, **kw)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1351, in call_button
+    action = self._call_kw(model, method, args, kwargs)
+  File "C:\Odoo15\server\odoo\addons\web\controllers\main.py", line 1339, in _call_kw
+    return call_kw(request.env[model], method, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 464, in call_kw
+    result = _call_kw_multi(method, model, args, kwargs)
+  File "C:\Odoo15\server\odoo\api.py", line 451, in _call_kw_multi
+    result = method(recs, *args, **kwargs)
+  File "<decorator-gen-74>", line 2, in button_immediate_install
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 74, in check_and_log
+    return method(self, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 483, in button_immediate_install
+    return self._button_immediate_function(type(self).button_install)
+  File "C:\Odoo15\server\odoo\addons\base\models\ir_module.py", line 600, in _button_immediate_function
+    registry = modules.registry.Registry.new(self._cr.dbname, update_module=True)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 87, in new
+    odoo.modules.load_modules(registry, force_demo, status, update_module)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 476, in load_modules
+    loaded_modules, update_module, models_to_check)
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 365, in load_marked_modules
+    perform_checks=perform_checks, models_to_check=models_to_check
+  File "C:\Odoo15\server\odoo\modules\loading.py", line 188, in load_module_graph
+    model_names = registry.load(cr, package)
+  File "C:\Odoo15\server\odoo\modules\registry.py", line 237, in load
+    model = cls._build_model(self, cr)
+  File "C:\Odoo15\server\odoo\models.py", line 636, in _build_model
+    raise TypeError("Model %r inherits from non-existing model %r." % (name, parent))
+Exception
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\http.py", line 643, in _handle_exception
+    return super(JsonRequest, self)._handle_exception(exception)
+  File "C:\Odoo15\server\odoo\http.py", line 301, in _handle_exception
+    raise exception.with_traceback(None) from new_cause
+TypeError: Model 'die.history' inherits from non-existing model 'die.master '.
+2022-08-09 09:12:29,326 3112 INFO odoo_db odoo.modules.loading: loading 1 modules... 
+2022-08-09 09:12:29,342 3112 INFO odoo_db odoo.modules.loading: 1 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:12:29,342 3112 INFO odoo_db odoo.modules.loading: loading 13 modules... 
+2022-08-09 09:12:29,357 3112 INFO odoo_db odoo.modules.loading: 13 modules loaded in 0.02s, 0 queries (+0 extra) 
+2022-08-09 09:12:29,404 3112 INFO odoo_db odoo.modules.loading: Modules loaded. 
+2022-08-09 09:12:29,404 3112 INFO odoo_db odoo.modules.registry: Registry loaded in 0.078s 
+2022-08-09 09:12:29,404 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:29] "POST /web/dataset/call_button HTTP/1.1" 200 - 1079 0.315 0.821
+2022-08-09 09:12:58,823 3112 INFO ? odoo.service.server: Initiating shutdown 
+2022-08-09 09:12:58,823 3112 INFO ? odoo.service.server: Hit CTRL-C again or send a second signal to force the shutdown. 
+2022-08-09 09:12:59,177 3112 ERROR ? odoo.addons.bus.models.bus: Bus.loop error, sleep and retry 
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\addons\bus\models\bus.py", line 177, in loop
+    conn.poll()
+psycopg2.InterfaceError: connection already closed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Odoo15\server\odoo\addons\bus\models\bus.py", line 200, in run
+    self.loop()
+  File "C:\Odoo15\server\odoo\addons\bus\models\bus.py", line 186, in loop
+    event.set()
+  File "C:\Odoo15\server\odoo\sql_db.py", line 162, in __exit__
+    self.close()
+  File "<decorator-gen-4>", line 2, in close
+  File "C:\Odoo15\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\sql_db.py", line 379, in close
+    return self._close(False)
+  File "C:\Odoo15\server\odoo\sql_db.py", line 405, in _close
+    self.rollback()
+  File "<decorator-gen-8>", line 2, in rollback
+  File "C:\Odoo15\server\odoo\sql_db.py", line 90, in check
+    return f(self, *args, **kwargs)
+  File "C:\Odoo15\server\odoo\sql_db.py", line 484, in rollback
+    result = self._cnx.rollback()
+psycopg2.InterfaceError: connection already closed
+2022-08-09 09:12:59,177 3112 INFO ? odoo.sql_db: ConnectionPool(used=0/count=0/max=64): Closed 6 connections  
+2022-08-09 09:12:59,208 3112 INFO odoo_db werkzeug: 127.0.0.1 - - [09/Aug/2022 09:12:59] "POST /longpolling/poll HTTP/1.1" 200 - 13 0.023 33.345

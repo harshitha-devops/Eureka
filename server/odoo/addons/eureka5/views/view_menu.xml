@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <!--Action view for all menu items -->
+    <record id="action_die_contact" model="ir.actions.act_window">
+        <field name="name">Die Contact</field>
+        <field name="res_model">dm.customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="action_die_customer" model="ir.actions.act_window">
+        <field name="name">Die Customer</field>
+        <field name="res_model">dm.customer</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="action_die_supplier" model="ir.actions.act_window">
+        <field name="name">Die Supplier</field>
+        <field name="res_model">dm.supplier</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+    <record id="action_die_master" model="ir.actions.act_window">
+        <field name="name">Die Master</field>
+        <field name="res_model">die.master</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_die_history" model="ir.actions.act_window">
+        <field name="name">Die History</field>
+        <field name="res_model">die.history</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <record id="action_die_trans" model="ir.actions.act_window">
+        <field name="name">Die Transactions</field>
+        <field name="res_model">die.history</field>
+        <field name="view_mode">tree</field>
+    </record>
+
+    <record id="action_die_nitriding" model="ir.actions.act_window">
+        <field name="name">Die Nitriding</field>
+        <field name="res_model">die.nitriding</field>
+        <field name="view_mode">tree,form</field>
+    </record>
+
+    <!-- Defining Our Own Tree View For die master -->
+    <record id="view_die_customer_tree" model="ir.ui.view">
+        <field name="name">dm.customer.tree</field>
+        <field name="model">dm.customer</field>
+        <field name="arch" type="xml">
+            <tree string="Die Customer">
+                <field name="customer_name_id"/>
+                <field name="addressline1"/>
+                <field name="addressline2"/>
+                <field name="city"/>
+                <field name="state"/>
+                <field name="zip"/>
+                <field name="country"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_die_supplier_tree" model="ir.ui.view">
+        <field name="name">dm.supplier.tree</field>
+        <field name="model">dm.supplier</field>
+        <field name="arch" type="xml">
+            <tree string="Die Supplier">
+                <field name="supplier_name_id"/>
+                <field name="addressline1"/>
+                <field name="addressline2"/>
+                <field name="city"/>
+                <field name="state"/>
+                <field name="zip"/>
+                <field name="country"/>
+            </tree>
+        </field>
+    </record>
+    <record id="view_die_master_tree" model="ir.ui.view">
+        <field name="name">die.master.tree</field>
+        <field name="model">die.master</field>
+        <field name="arch" type="xml">
+            <tree class="text-center" string="Die Master">
+                <field name="die_number"/>
+                <field name="number_of_cavity" class="text-center"/>
+                <field name="die_type"/>
+                <field name="bolster_no"/>
+                <field name="ordered_die_weight" type="char"/>
+                <field name="supplier_name_id"/>
+                <field name="status"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_die_history_tree" model="ir.ui.view">
+        <field name="name">die.history.tree</field>
+        <field name="model">die.history</field>
+        <field name="arch" type="xml">
+            <tree string="Die History">
+                <field name="die_number"/>
+                <field name="production_date"/>
+                <field name="input1"/>
+                <field name="output1"/>
+                <field name="recovery"/>
+                <field name="run_wtpm"/>
+                <field name="unload_code"/>
+            </tree>
+        </field>
+    </record>
+
+    <record id="view_die_nitriding_tree" model="ir.ui.view">
+        <field name="name">die.nitriding.tree</field>
+        <field name="model">die.nitriding</field>
+        <field name="arch" type="xml">
+            <tree string="Die Nitriding">
+                <field name="die_number"/>
+                <field name="nitriding_date"/>
+                <field name="batch_num"/>
+                <field name="operator"/>
+            </tree>
+        </field>
+    </record>
+
+
+    <!-- Defining Our Own Form View For die master -->
+    <record id="view_die_customer_form" model="ir.ui.view">
+        <field name="name">dm.customer.form</field>
+        <field name="model">dm.customer</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="customer_name_id"/>
+                            <field name="addressline1"/>
+                            <field name="addressline2"/>
+                            <field name="city"/>
+                            <field name="state"/>
+                            <field name="zip"/>
+                            <field name="country"/>
+                        </group>
+                    </group>
+                </sheet>
+<!--                <div class="oe_chatter">-->
+<!--                    <field name="message_follower_ids"/>-->
+<!--                    <field name="activity_ids"/>-->
+<!--                    <field name="message_ids"/>-->
+<!--                </div>-->
+            </form>
+        </field>
+    </record>
+
+     <record id="view_die_supplier_form" model="ir.ui.view">
+        <field name="name">dm.supplier.form</field>
+        <field name="model">dm.supplier</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="supplier_name_id"/>
+                            <field name="addressline1"/>
+                            <field name="addressline2"/>
+                            <field name="city"/>
+                            <field name="state"/>
+                            <field name="zip"/>
+                            <field name="country"/>
+                        </group>
+                    </group>
+                </sheet>
+<!--                <div class="oe_chatter">-->
+<!--                    <field name="message_follower_ids"/>-->
+<!--                    <field name="activity_ids"/>-->
+<!--                    <field name="message_ids"/>-->
+<!--                </div>-->
+            </form>
+        </field>
+    </record>
+
+    <record id="view_die_master_form" model="ir.ui.view">
+        <field name="name">die.master.form</field>
+        <field name="model">die.master</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <h2 style="font-size:30px">Eureka Die Master</h2>
+                    <group col="3">
+                        <group>
+                            <field name="die_number" style="font-size: 150%;"/>
+                            <field name='image' widget="image" class="oe_left oe_avatar"/>
+                            <field name="die_type"/>
+                            <field name="number_of_cavity"/>
+                            <field name="bolster_no"/>
+                            <field name="ordered_die_weight" style="background:#8FE388;"/>
+                            <field name="weight_code"/>
+                            <field name="lead_plate"/>
+                            <field name="backer"/>
+                            <field name="Standard"/>
+                            <field name="die_size"/>
+                        </group>
+                        <group>
+                            <field name="supplier_name_id"/>
+                            <field name="base_price"/>
+                            <field name="tax_gst"/>
+                            <field name="frieght"/>
+                            <field name="total_price"/>
+                            <field name="order_date"/>
+                            <field name="landed_date"/>
+                            <field name="lead_time_days"/>
+                            <field name="lot_no"/>
+                            <field name="money_paid_by_eureka"/>
+                            <field name="money_paid_by_customer"/>
+                            <field name="customer_name_id"/>
+                            <field name="payment_returnable"/>
+                        </group>
+                        <group>
+                            <field name="status" style="background:Yellow;"/>
+                            <field name="die_converted_from"/>
+                            <field name="die_converted_to"/>
+                            <field name="physical_location"/>
+                            <field name="hardness_die_plate"/>
+                            <field name="hardness_mand_feeder"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_die_history_form" model="ir.ui.view">
+        <field name="name">die.history.form</field>
+        <field name="model">die.history</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="die_number"/>
+                            <field name="image"/>
+                            <field name="die_type"/>
+                            <field name="number_of_cavity"/>
+                            <field name="die_size"/>
+                            <field name="bolster_no"/>
+                            <field name="die_supplier"/>
+                        </group>
+                        <group>
+                            <field name="production_date"/>
+                            <field name="input1"/>
+                            <field name="output1"/>
+                            <field name="recovery"/>
+                            <field name="productivity"/>
+                            <field name="run_wtpm"/>
+                            <field name="unload_code"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <record id="view_die_nitriding_form" model="ir.ui.view">
+        <field name="name">die.nitriding.form</field>
+        <field name="model">die.nitriding</field>
+        <field name="arch" type="xml">
+            <form>
+                <sheet>
+                    <group>
+                        <group>
+                            <field name="die_number"/>
+                            <field name="nitriding_date"/>
+                            <field name="batch_num"/>
+                            <field name="operator"/>
+                        </group>
+                    </group>
+                </sheet>
+                <div class="oe_chatter">
+                    <field name="message_follower_ids"/>
+                    <field name="activity_ids"/>
+                    <field name="message_ids"/>
+                </div>
+            </form>
+        </field>
+    </record>
+
+    <!--Menus for die management -->
+    <menuitem id="menu_management_root"
+              name="Die Management"
+              sequence="1"/>
+
+    <!--Submenu for die management-->
+    <menuitem id="menu_contact_root"
+              name="Die Contact"
+              parent="menu_management_root"
+              action="action_die_master"
+              sequence="2"/>
+    <menuitem id="menu_customer_root"
+              name="Die Customer"
+              parent="menu_contact_root"
+              action="action_die_customer"
+              sequence="3"/>
+    <menuitem id="menu_supplier_root"
+              name="Die Supplier "
+              parent="menu_contact_root"
+              action="action_die_supplier"
+              sequence="4"/>
+
+    <menuitem id="menu_master_root"
+              name="Die Master"
+              parent="menu_management_root"
+              action="action_die_master"
+              sequence="5"/>
+    <menuitem id="menu_trans_root"
+              name="Die Transactions"
+              parent="menu_management_root"
+              action="action_die_trans"
+              sequence="6"/>
+
+    <!--Submenu for die transaction-->
+    <menuitem id="menu_history_root"
+              name="Die History"
+              parent="menu_trans_root"
+              action="action_die_history"
+              sequence="7"/>
+    <menuitem id="menu_nitriding_root"
+              name="Die Nitriding "
+              parent="menu_trans_root"
+              action="action_die_nitriding"
+              sequence="8"/>
+</odoo>

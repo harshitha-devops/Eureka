@@ -1,0 +1,7 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_die_history,die.history,model_die_history,base.group_user,1,1,1,1
+access_die_master,die.master,model_die_master,base.group_user,1,1,1,1
+access_die_nitriding,die.nitriding,model_die_nitriding,base.group_user,1,1,1,1
+access_dm_customer,dm.customer,model_dm_customer,base.group_user,1,1,1,1
+access_dm_supplier,dm.supplier,model_dm_supplier,base.group_user,1,1,1,1
+

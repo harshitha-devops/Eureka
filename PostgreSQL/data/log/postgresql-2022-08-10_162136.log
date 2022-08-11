@@ -1,0 +1,4 @@
+2022-08-10 16:21:36.790 IST [4048] LOG:  database system was shut down at 2022-08-10 16:21:34 IST
+2022-08-10 16:21:36.854 IST [9188] LOG:  database system is ready to accept connections
+2022-08-10 16:38:29.273 IST [4772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

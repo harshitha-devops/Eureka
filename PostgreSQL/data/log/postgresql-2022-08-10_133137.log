@@ -1,0 +1,24 @@
+2022-08-10 13:31:37.752 IST [13980] LOG:  database system was shut down at 2022-08-10 13:31:35 IST
+2022-08-10 13:31:37.820 IST [7404] LOG:  database system is ready to accept connections
+2022-08-10 13:32:44.809 IST [11480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-10 13:37:41.856 IST [11880] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-10 13:41:38.331 IST [7404] LOG:  received fast shutdown request
+2022-08-10 13:41:38.343 IST [7404] LOG:  aborting any active transactions
+2022-08-10 13:41:38.355 IST [14280] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.356 IST [9056] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.356 IST [13104] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.363 IST [13904] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.363 IST [13556] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.364 IST [3716] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.368 IST [7004] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.378 IST [2504] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.384 IST [2948] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.387 IST [13008] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.388 IST [8136] FATAL:  terminating connection due to administrator command
+2022-08-10 13:41:38.408 IST [7404] LOG:  background worker "logical replication launcher" (PID 10648) exited with exit code 1
+2022-08-10 13:41:38.444 IST [11824] FATAL:  the database system is shutting down
+2022-08-10 13:41:38.479 IST [13984] FATAL:  the database system is shutting down
+2022-08-10 13:41:38.698 IST [13808] LOG:  shutting down
+2022-08-10 13:41:38.781 IST [7404] LOG:  database system is shut down

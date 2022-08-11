@@ -1,0 +1,17 @@
+2022-08-10 13:25:36.070 IST [5812] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-10 13:30:36.398 IST [3320] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-08-10 13:31:35.284 IST [6996] LOG:  received fast shutdown request
+2022-08-10 13:31:35.292 IST [6996] LOG:  aborting any active transactions
+2022-08-10 13:31:35.307 IST [11808] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.310 IST [9448] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.311 IST [14264] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.313 IST [12232] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.314 IST [3756] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.322 IST [12772] FATAL:  terminating connection due to administrator command
+2022-08-10 13:31:35.342 IST [6996] LOG:  background worker "logical replication launcher" (PID 9864) exited with exit code 1
+2022-08-10 13:31:35.367 IST [10400] LOG:  shutting down
+2022-08-10 13:31:35.373 IST [12324] FATAL:  the database system is shutting down
+2022-08-10 13:31:35.417 IST [5440] FATAL:  the database system is shutting down
+2022-08-10 13:31:35.464 IST [6996] LOG:  database system is shut down
